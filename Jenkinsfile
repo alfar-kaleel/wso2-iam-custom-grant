@@ -7,6 +7,7 @@ pipeline {
         NEXUS_CREDENTIALS = 'nexus-credentials' // Jenkins stored credentials ID for Nexus
     }
 
+ stages{
    stage('Checkout the branch') {
             steps {
                 git branch: 'develop', url: 'https://github.com/alfar-kaleel/wso2-iam-custom-grant.git'
@@ -38,5 +39,6 @@ pipeline {
                 )
             }
         }
-    }
+ }
+}
 }
