@@ -1,0 +1,4 @@
+org/wso2/sample/identity/oauth2/grant/mobile/MobileGrant.class
+org/wso2/sample/identity/oauth2/grant/password/ModifiedAccessTokenPasswordGrant.class
+org/wso2/sample/identity/oauth2/grant/password/RoleBasedPasswordGrant.class
+org/wso2/sample/identity/oauth2/grant/mobile/MobileGrantValidator.class
