@@ -34,7 +34,7 @@ pipeline {
                         artifactId: 'custom-grant',
                         classifier: '',
                         type: 'jar',
-                        file: 'target/custom-grant_1.0.0.jar'
+                        file: 'target/custom-grant-1.0.0.jar'
                     ]]
                 )
             }
