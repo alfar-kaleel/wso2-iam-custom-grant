@@ -72,6 +72,7 @@ public class ModifiedAccessTokenPasswordGrant extends PasswordGrantHandler {
         String[] userStoresArr = null;
         String currentUserStore = tokReqMsgCtx.getAuthorizedUser().getUserStoreDomain();
         OAuth2AccessTokenRespDTO tokenRespDTO =  super.issue(tokReqMsgCtx);
+        System.out.println("Checking that the new build has created");
 
         try {
             prop.load(reader);
