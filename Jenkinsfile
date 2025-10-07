@@ -28,13 +28,13 @@ pipeline {
                     nexusUrl: "localhost:8081",  // Correct Nexus base URL
                     repository: 'maven-releases',
                     groupId: 'com.example.customgrant.apis',
-                    version: "1.0.0${BUILD_NUMBER}",
+                    version: "1.0.0-${BUILD_NUMBER}",
                     credentialsId: "${NEXUS_CREDENTIALS}",
                     artifacts: [[
                         artifactId: 'custom-grant',
                         classifier: '',
                         type: 'jar',
-                        file: 'target/custom-grant_1.0.0.car'
+                        file: 'target/custom-grant_1.0.0.jar'
                     ]]
                 )
             }
